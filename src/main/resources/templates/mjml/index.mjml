@@ -21,7 +21,7 @@
    
       <mj-column>
         <mj-text font-family="Open sans, Arial" color="#f85f56" align="left" font-size="22px" font-weight="bold">
-         Kesehatan
+         Kesehatan {{ name }}
         </mj-text>
         <mj-text font-family="Open sans, Arial" align="left" font-size="22px">
 MOVFOR, antivirus khusus COVID-19 pertama di Indonesia resmi beredar 🤩💊

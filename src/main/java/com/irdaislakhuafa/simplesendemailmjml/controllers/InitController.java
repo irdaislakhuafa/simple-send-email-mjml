@@ -26,15 +26,11 @@ public class InitController {
         try {
             var mail = MailBuilder.mjml()
                     .subject("Hi this is beatufile")
-                    .from(new MailAddress("me@gmail.com"))
-                    .to(new MailAddress("you@gmail.com"))
-                    .param("something", "Something haha")
+                    .from(new MailAddress("irdhaislakhuafa@gmail.com"))
+                    .to(new MailAddress("irdaislakhuafa.test@gmail.com"))
+                    .param("name", "irda islakhu afa hahahahah")
                     .loadTemplate("mjml/index.mjml")
                     .build();
-            // new Thread(() -> {
-            // System.out.println("\033\143");
-            // System.out.println("doneee");
-            // });
             mailProvider.send(mail);
             return ResponseEntity.ok("ok");
 
