@@ -13,7 +13,7 @@ public class InitController {
     @GetMapping
     public ResponseEntity<?> init() {
         try {
-
+            return null;
         } catch (Exception e) {
             return ResponseEntity.ok().body("failed: " + e.getMessage());
         }
