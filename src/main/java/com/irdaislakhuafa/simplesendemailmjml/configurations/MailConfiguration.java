@@ -38,16 +38,6 @@ public class MailConfiguration {
         mail.setMjmlAppId(APP_ID);
         mail.setMjmlAppSecret(APP_SECRET);
 
-        // var mail = MailoConfig.get();
-        // mail.setMjmlAppId("e1f2b953-c3fa-4756-8e4b-a1e3db34ad33");
-        // mail.setMjmlAppSecret("ac90349f-1282-4882-a5ee-7875ac57a76f");
-
-        // var mailConfig = MailoConfig.get();
-        // System.out.println(mailConfig.getMjmlAppId());
-        // mailConfig.setMjmlAppId(APP_ID);
-        // mailConfig.setMjmlAppSecret(APP_SECRET);
-        // mailConfig.setTemplateDirectory("./templates/mjml");
-
         var smtpConfig = new SmtpConfig() {
             {
                 setHost(HOST);
